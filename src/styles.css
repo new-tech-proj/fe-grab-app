@@ -1,0 +1,49 @@
+.App {
+  /* font-family: Avenir; */
+  font-family: "Lato", sans-serif;
+}
+
+.styleCard {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px #ccc;
+  color: #253b56;
+  margin: 12px 0px;
+}
+
+.styleCardContent {
+  padding: 4px 16px 20px 16px;
+}
+
+.styleImage {
+  background-color: lightGray;
+  border-radius: 8px 8px 0 0;
+  max-height: 140px;
+  overflow: hidden;
+}
+
+.styleCardTitle {
+  /* font-family: Avenir-Heavy; */
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin: 12px 0px 0px 0px;
+}
+
+.styleLocationLabel {
+  color: #8294aa;
+  font-size: 14;
+  margin: 4px 0;
+}
+
+.styleDescription {
+  font-size: 14;
+  margin: 8px 0 0 0;
+}
+
+.bw {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.styleButton {
+  margin-top: 50;
+}
