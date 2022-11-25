@@ -16,7 +16,6 @@ const App = () => {
                 <MyAppBar />
                 </Grid>
                 <Grid item style={{Margin:"20px"}}>
-               <NButton/>
               </Grid>
         </Grid>
 

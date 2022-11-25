@@ -4,7 +4,9 @@ import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import EventsList from "./components/EventList";
 import { eventsData } from "./components/data";
-import Upload from "./components/Upload";
+import CreatePost from "./components/CreatePost";
+import EditPost from "./components/EditPost";
+import MyCarousel from "./components/MyCarousel";
 import App from "./App";
 import React  from 'react'
 
@@ -21,7 +23,9 @@ root.render(
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<SignUp />} />
       <Route path="card" element={<EventsList data={eventsData} />} />
-      <Route path="upload" element={<Upload />} />
+      <Route path="create_post" element={<CreatePost />} />
+      <Route path="edit_post" element={<EditPost />} />
+      <Route path="carousel" element={<MyCarousel />} />
     </Routes>
   </BrowserRouter>
 );
