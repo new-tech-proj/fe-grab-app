@@ -9,7 +9,7 @@ import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
 
-const options = ['Đã bán','Chưa bán'];
+const options = ['Đã share','Chưa share'];
 
 export default function SplitButton() {
   const [open, setOpen] = React.useState(false);
